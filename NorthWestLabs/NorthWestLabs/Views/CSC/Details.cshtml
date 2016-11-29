@@ -1,0 +1,94 @@
+﻿@model NorthWestLabs.Models.CSC
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2>Work Order Details</h2>
+    <div class="row">
+        <div class="col-sm-3">
+            <h3>LT# 123456 | NyQuil</h3>
+        </div>
+        <div class="col-sm-3 col-sm-offset-6">
+            <button>Print</button>
+            <button>Export</button>
+        </div>
+    </div>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.csc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.assay)
+            </th>
+            <th>
+                Assay Test
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.weight)
+            </th>
+            <th>
+                MTD
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.appearance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.passedTest)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.hoursWorked)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.employeeID)
+            </th>
+            <th>
+                Employee Name
+            </th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+                12
+            </td>
+            <td>
+                ImmunoScreen®
+            </td>
+            <td>
+                1.26g
+            </td>
+            <td>
+                0.25g
+            </td>
+            <td>
+                clear liquid
+            </td>
+            <td>
+                yes
+            </td>
+            <td>
+                12
+            </td>
+            <td>
+                2
+            </td>
+            <td>
+                John Smith
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Create", new { id = 1 }) |
+                @Html.ActionLink("Delete", "Index", "Home" )
+            </td>
+        </tr>
+
+        </table>
+</div>
+

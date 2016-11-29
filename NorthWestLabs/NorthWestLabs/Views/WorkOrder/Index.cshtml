@@ -1,0 +1,100 @@
+﻿@model IEnumerable<NorthWestLabs.Models.WorkOrder>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2>Work Order List</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LTNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.customerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateRecieved)
+            </th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <td>
+                123456
+            </td>
+            <td>
+                Nyquil
+            </td>
+            <td>
+                12/01/2016
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
+                @Html.ActionLink("Details", "Details", new { id = 1 }) |
+                @Html.ActionLink("Delete", "Delete", new { id = 1 })
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                234567
+            </td>
+            <td>
+                Bayer
+            </td>
+            <td>
+                12/21/2016
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
+                @Html.ActionLink("Details", "Details", new { id = 1 }) |
+                @Html.ActionLink("Delete", "Delete", new { id = 1 })
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                987654
+            </td>
+            <td>
+                Novo Nordisk
+            </td>
+            <td>
+                12/30/2016
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
+                @Html.ActionLink("Details", "Details", new { id = 1 }) |
+                @Html.ActionLink("Delete", "Delete", new { id = 1 })
+            </td>
+        </tr>
+
+        @*@foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LTNum)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.customerName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dateRecieved)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.LTNum }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.LTNum }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.LTNum })
+                </td>
+            </tr>
+        }*@
+
+    </table>
+</div>
+
