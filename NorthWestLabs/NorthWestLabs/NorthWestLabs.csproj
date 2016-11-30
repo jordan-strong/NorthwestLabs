@@ -163,6 +163,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AccountingController.cs" />
+    <Compile Include="Controllers\CRMController.cs" />
     <Compile Include="Controllers\CSCController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -171,6 +172,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\CRM.cs" />
     <Compile Include="Models\CSC.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Invoice.cs" />
@@ -259,6 +261,9 @@
     <Content Include="Views\Accounting\Index.cshtml" />
     <Content Include="Views\Accounting\Create.cshtml" />
     <Content Include="Views\Accounting\Details.cshtml" />
+    <Content Include="Views\CRM\Index.cshtml" />
+    <Content Include="Views\CRM\Status.cshtml" />
+    <Content Include="Views\CRM\WorkOrders.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
