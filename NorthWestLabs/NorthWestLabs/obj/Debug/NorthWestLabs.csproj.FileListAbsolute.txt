@@ -53,6 +53,7 @@ c:\users\jstro\onedrive\documents\visual studio 2013\Projects\NorthWestLabs\Nort
 c:\users\jstro\onedrive\documents\visual studio 2013\Projects\NorthWestLabs\NorthWestLabs\obj\Debug\NorthWestLabs.csprojResolveAssemblyReference.cache
 c:\users\jstro\onedrive\documents\visual studio 2013\Projects\NorthWestLabs\NorthWestLabs\obj\Debug\NorthWestLabs.dll
 c:\users\jstro\onedrive\documents\visual studio 2013\Projects\NorthWestLabs\NorthWestLabs\obj\Debug\NorthWestLabs.pdb
+<<<<<<< HEAD
 C:\Users\Laura\Documents\BYU IS Program\IS 401\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\NorthWestLabs.dll.config
 C:\Users\Laura\Documents\BYU IS Program\IS 401\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\NorthWestLabs.dll
 C:\Users\Laura\Documents\BYU IS Program\IS 401\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\NorthWestLabs.pdb
@@ -108,3 +109,60 @@ C:\Users\Laura\Documents\BYU IS Program\IS 401\NorthwestLabs\NorthWestLabs\North
 C:\Users\Laura\Documents\BYU IS Program\IS 401\NorthwestLabs\NorthWestLabs\NorthWestLabs\obj\Debug\NorthWestLabs.csprojResolveAssemblyReference.cache
 C:\Users\Laura\Documents\BYU IS Program\IS 401\NorthwestLabs\NorthWestLabs\NorthWestLabs\obj\Debug\NorthWestLabs.dll
 C:\Users\Laura\Documents\BYU IS Program\IS 401\NorthwestLabs\NorthWestLabs\NorthWestLabs\obj\Debug\NorthWestLabs.pdb
+=======
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\NorthWestLabs.dll.config
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\NorthWestLabs.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\NorthWestLabs.pdb
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Antlr3.Runtime.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\EntityFramework.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\EntityFramework.SqlServer.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Newtonsoft.Json.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Owin.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.Helpers.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.Mvc.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.Optimization.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.Razor.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.WebPages.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.WebPages.Razor.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\WebGrease.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.Helpers.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.Mvc.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.Optimization.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.Razor.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.WebPages.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\System.Web.WebPages.Razor.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Antlr3.Runtime.pdb
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Newtonsoft.Json.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\EntityFramework.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\EntityFramework.SqlServer.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\obj\Debug\NorthWestLabs.csprojResolveAssemblyReference.cache
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\obj\Debug\NorthWestLabs.dll
+C:\Users\jstro\OneDrive\Documents\GitHub\NorthwestLabs\NorthWestLabs\NorthWestLabs\obj\Debug\NorthWestLabs.pdb
+>>>>>>> c1a25d64786964bf27e1a15937e7d3782d3af5df
