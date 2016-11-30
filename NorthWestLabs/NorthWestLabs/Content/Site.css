@@ -125,12 +125,11 @@ li .dropdown .dropdown-toggle:hover{
     color: #428bca;
     background-color: white;
 }
-<<<<<<< HEAD
-.invoice{
+.invoice {
     position: relative;
     width: 100%;
     bottom: 0;
-=======
+}
 
 input[type="radio"], input[type="checkbox"] {
     margin: 0;
@@ -138,5 +137,4 @@ input[type="radio"], input[type="checkbox"] {
     line-height: normal;
     width: 30px;
     height: 30px;
->>>>>>> c1a25d64786964bf27e1a15937e7d3782d3af5df
 }
