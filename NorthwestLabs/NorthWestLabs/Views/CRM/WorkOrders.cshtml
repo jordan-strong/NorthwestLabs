@@ -1,0 +1,175 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <h2>Work Order List</h2>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                LTNum
+            </th>
+            <th>
+                Customer Name
+            </th>
+            <th>
+                Date Received
+            </th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>
+                123456
+            </td>
+            <td>
+                Nyquil
+            </td>
+            <td>
+                12/01/2016
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
+                @Html.ActionLink("Details", "Details", new { id = 1 }) |
+                @Html.ActionLink("Status", "Status")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                123467
+            </td>
+            <td>
+                Nyquil
+            </td>
+            <td>
+                10/16/2016
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
+                @Html.ActionLink("Details", "Details", new { id = 1 }) |
+                @Html.ActionLink("Status", "Status")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                123469
+            </td>
+            <td>
+                Nyquil
+            </td>
+            <td>
+                11/02/2016
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
+                @Html.ActionLink("Details", "Details", new { id = 1 }) |
+                @Html.ActionLink("Status", "Status")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                123471
+            </td>
+            <td>
+                Nyquil
+            </td>
+            <td>
+                11/30/2016
+            </td>
+            <td>
+               @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
+            @Html.ActionLink("Details", "Details", new { id = 1 }) |
+            @Html.ActionLink("Status", "Status")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                123477
+            </td>
+            <td>
+                Nyquil
+            </td>
+            <td>
+                12/01/2016
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
+                @Html.ActionLink("Details", "Details", new { id = 1 }) |
+                @Html.ActionLink("Status", "Status")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                123480
+            </td>
+            <td>
+                Nyquil
+            </td>
+            <td>
+                12/18/2016
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
+                @Html.ActionLink("Details", "Details", new { id = 1 }) |
+                @Html.ActionLink("Status", "Status")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                123482
+            </td>
+            <td>
+                Nyquil
+            </td>
+            <td>
+                12/19/2016
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
+                @Html.ActionLink("Details", "Details", new { id = 1 }) |
+                @Html.ActionLink("Status", "Status")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                123489
+            </td>
+            <td>
+                Nyquil
+            </td>
+            <td>
+                12/20/2016
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
+                @Html.ActionLink("Details", "Details", new { id = 1 }) |
+                @Html.ActionLink("Status", "Status")
+            </td>
+        </tr>
+        
+        @*@foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LTNum)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.customerName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.dateRecieved)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.LTNum }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.LTNum }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.LTNum })
+                    </td>
+                </tr>
+            }*@
+    </table>
+</div>
+
+

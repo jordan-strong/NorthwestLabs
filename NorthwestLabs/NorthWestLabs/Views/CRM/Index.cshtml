@@ -1,0 +1,200 @@
+﻿@model IEnumerable<NorthWestLabs.Models.CRM>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.customerID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.customerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.billingAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.city)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.state)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ZIP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.contactFirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.contactLastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.contactPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.contactEmail)
+        </th>
+        <th></th>
+    </tr>
+
+    <tr>
+        <td>
+            001
+        </td>
+        <td>
+            Nyquil
+        </td>
+        <td>
+            2016 Procter & Gamble Way
+        </td>
+        <td>
+            Chicago
+        </td>
+        <td>
+            Illinois
+        </td>
+        <td>
+            60290
+        </td>
+        <td>
+            Lucas
+        </td>
+        <td>
+            Dyer
+        </td>
+        <td>
+            312-555-6789
+        </td>
+        <td>
+            lucasdyer@nyquil.com
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit") |
+            @Html.ActionLink("Work Orders", "WorkOrders", "CRM") |
+            @Html.ActionLink("Delete", "Delete")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            002
+        </td>
+        <td>
+            Bayer
+        </td>
+        <td>
+            2189 Bayer Way
+        </td> 
+        <td>
+            Houston
+        </td>
+        <td>
+            Texas
+        </td>
+        <td>
+            77001
+        </td>
+        <td>
+            Leslie
+        </td>
+        <td>
+            Kyler
+        </td>
+        <td>
+            281-555-1234
+        </td>
+        <td>
+            lesliekyler@bayer.com
+        </td>
+        <td>
+           @Html.ActionLink("Edit", "Edit") |
+        @Html.ActionLink("Work Orders", "WorkOrders", "CRM") |
+        @Html.ActionLink("Delete", "Delete")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            003
+        </td>
+        <td>
+            Novo Nordisk
+        </td>
+        <td>
+            8921 Novo Nordisk Way
+        </td>
+        <td>
+            Orlando
+        </td>
+        <td>
+            Florida
+        </td>
+        <td>
+            32801
+        </td>
+        <td>
+            Michael
+        </td>
+        <td>
+            Squiler
+        </td>
+        <td>
+            407-555-1194
+        </td>
+        <td>
+            michaelsquiler@novanordisk.com
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit") |
+            @Html.ActionLink("Work Orders", "WorkOrders", "CRM") |
+            @Html.ActionLink("Delete", "Delete")
+        </td>
+    </tr>
+    
+<!--
+--foreach (var item in Model) {
+    <tr>
+        <td>
+            --Html.DisplayFor(modelItem => item.customerName)
+        </td>
+        <td>
+            --Html.DisplayFor(modelItem => item.billingAddress)
+        </td>
+        <td>
+            --Html.DisplayFor(modelItem => item.city)
+        </td>
+        <td>
+            --Html.DisplayFor(modelItem => item.state)
+        </td>
+        <td>
+            --Html.DisplayFor(modelItem => item.ZIP)
+        </td>
+        <td>
+            --Html.DisplayFor(modelItem => item.contactFirstName)
+        </td>
+        <td>
+            --Html.DisplayFor(modelItem => item.contactLastName)
+        </td>
+        <td>
+            --Html.DisplayFor(modelItem => item.contactPhone)
+        </td>
+        <td>
+            --Html.DisplayFor(modelItem => item.contactEmail)
+        </td>
+        <td>
+            --Html.ActionLink("Edit", "Edit", new { id=item.customerID }) |
+            --Html.ActionLink("Work Orders", "workOrder", new { id=item.customerID }) |
+            --Html.ActionLink("Delete", "Delete", new { id=item.customerID })
+        </td>
+    </tr>
+    
+    -->
+}
+
+</table>
