@@ -6,11 +6,26 @@
     
     <link href="~/Content/Site.css" rel="stylesheet" />
 }
+@*This page displays the associated invoice and has the option to print*@ 
 <div class="container">
    <h2>Invoice</h2>
     <div>
-
-        <img src="~/Content/images/Invoice12034.png" />
+        @{if (@ViewBag.id == 1)
+        {
+            <img class="invoice" src="~/Content/images/Invoice12034.png" />
+        }
+        else if(@ViewBag.id==2){
         
+            <img class="invoice" src="~/Content/images/Invoice20394.png" />
+        }
+          else
+          {
+
+            <img class="invoice" src="~/Content/images/Invoice14059.png" />
+          }
+        
+        }
+        
+        <center><button type="button" class="btn btn-primary">Print</button></center>
     </div>
 </div>

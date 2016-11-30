@@ -8,6 +8,7 @@ namespace NorthWestLabs.Controllers
 {
     public class AccountingController : Controller
     {
+        //This controller creates the views for the accounting pages 
         // GET: Accounting
         public ActionResult Index()
         {
@@ -15,11 +16,32 @@ namespace NorthWestLabs.Controllers
         }
         public ActionResult Create()
         {
+
             return View();
         }
-        public ActionResult Details()
+        [HttpPost]
+        public ActionResult Create(FormCollection collection)
         {
-            return View();
+            return RedirectToAction("Index");
+        }
+        public ActionResult Details(int id)
+        {
+            if (id == 1)
+            {
+                ViewBag.id = 1;
+                return View();
+            }
+            else if (id == 2)
+            {
+                ViewBag.id = 2;
+                return View();
+            }
+            else
+            {
+                ViewBag.id = 3;
+                return View();
+            }
+         
         }
     }
 }

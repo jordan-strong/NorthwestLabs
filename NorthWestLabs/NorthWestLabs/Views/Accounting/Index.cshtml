@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+@*This page displays a list of the invoices in the system*@
 <h2>Invoice List</h2>
 
 <p>
@@ -87,7 +87,7 @@
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
-            @Html.ActionLink("View", "Details", new { id = 1 }) |
+            @Html.ActionLink("View", "Details", new { id = 2 }) |
             @Html.ActionLink("Delete", "Delete", new { id = 1 })
         </td>
     </tr>
@@ -115,7 +115,7 @@
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id = 1 }) |
-            @Html.ActionLink("View", "Details", new { id = 1 }) |
+            @Html.ActionLink("View", "Details", new { id = 3 }) |
             @Html.ActionLink("Delete", "Delete", new { id = 1 })
         </td>
     </tr>

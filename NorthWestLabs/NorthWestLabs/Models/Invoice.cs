@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace NorthWestLabs.Models
 {
+    //this code creates a model for an invoice and tells the user what attributes are required or allowed for an invoice 
     public class Invoice
     {
         [Key]
@@ -22,7 +23,7 @@ namespace NorthWestLabs.Models
         [DisplayName("Payment Terms")]
         public string paymentTerms { get; set; }
 
-        [HiddenInput(DisplayValue = false)]
+        
         [DisplayName("Print Date")]
         public DateTime printDate { get; set; }
 
