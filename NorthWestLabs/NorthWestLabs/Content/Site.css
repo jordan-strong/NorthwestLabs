@@ -125,3 +125,10 @@ li .dropdown .dropdown-toggle:hover{
     color: #428bca;
     background-color: white;
 }
+.invoice{
+    height:400px;
+    /*width:500px;*/
+    width:100%;
+   align-content:center;
+   text-align:center;
+}
