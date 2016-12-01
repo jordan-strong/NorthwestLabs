@@ -177,6 +177,8 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Invoice.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Sales.cs" />
+    <Compile Include="Controllers\SalesController.cs" />
     <Compile Include="Models\WorkOrder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -264,6 +266,8 @@
     <Content Include="Views\CRM\Index.cshtml" />
     <Content Include="Views\CRM\Status.cshtml" />
     <Content Include="Views\CRM\WorkOrders.cshtml" />
+    <Content Include="Views\Sales\CreateQuote.cshtml" />
+    <Content Include="Views\Sales\QuoteSummary.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

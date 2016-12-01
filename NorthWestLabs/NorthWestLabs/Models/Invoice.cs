@@ -41,6 +41,8 @@ namespace NorthWestLabs.Models
         [MaxLength(6)]
         public int LTNum { get; set; }
 
+        [DisplayName("Extra Cost")]
+        public decimal extraCosts { get; set; }
 
 
 

@@ -24,5 +24,9 @@ namespace NorthWestLabs.Models
         [Required(ErrorMessage = "Please enter the date")]
         [DisplayName("Date Recieved")]
         public DateTime dateRecieved { get; set; }
+
+        [Required(ErrorMessage = "Please enter the date")]
+        [DisplayName("Date Due")]
+        public DateTime dateDue { get; set; }
     }
 }

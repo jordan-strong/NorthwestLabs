@@ -29,6 +29,9 @@ textarea {
     position: relative;
     text-align: right;
 }
+.container .jumbotron, .container-fluid .jumbotron{
+    border-radius: 0;
+}
 img{
     position: fixed;
     width: 100%;
@@ -137,4 +140,17 @@ input[type="radio"], input[type="checkbox"] {
     line-height: normal;
     width: 30px;
     height: 30px;
+}
+
+td {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.btn-primary {
+    float: right;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin-right: 10px;
 }

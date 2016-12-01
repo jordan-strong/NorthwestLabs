@@ -18,5 +18,9 @@ namespace NorthWestLabs.Models
         [DisplayName("Compound:")]
         [StringLength(30)]
         public string compound { get; set; }
+
+        [Required(ErrorMessage = "Please enter a weight")]
+        [DisplayName("Weight:")]
+        public decimal weight { get; set; }
     }
 }

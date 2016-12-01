@@ -1,0 +1,1 @@
+Data Source=LAPTOP-7697IUHC\SQLEXPRESS;Initial Catalog=NorthwestLabs;Integrated Security=True;Pooling=False

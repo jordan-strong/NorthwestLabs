@@ -20,8 +20,17 @@ namespace NorthWestLabs.Models
         public int assay { get; set; }
 
         [Required(ErrorMessage = "Please enter a compound weight in grams")]
-        [DisplayName("Weight(g)")]
-        public int weight { get; set; }
+        [DisplayName("Client Weight(g)")]
+        public decimal weight { get; set; }
+
+        [DisplayName("Actual Weight(g)")]
+        public decimal actualWeight { get; set; }
+
+        [DisplayName("Molecular Mass(g)")]
+        public decimal molMass { get; set; }
+
+        [DisplayName("MTD(g)")]
+        public decimal mtd { get; set; }
 
         [Required(ErrorMessage = "Please enter a physical description of the appearance")]
         [DisplayName("Physical Description")]
