@@ -14,11 +14,15 @@ namespace NorthWestLabs.Controllers
         {
             return View();
         }
+
+        //gets the form to create an invoice
         public ActionResult Create()
         {
 
             return View();
         }
+
+        //returns the specific created invoice
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -26,6 +30,7 @@ namespace NorthWestLabs.Controllers
         }
         public ActionResult Details(int id)
         {
+            //
             if (id == 1)
             {
                 ViewBag.id = 1;

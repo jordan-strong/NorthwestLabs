@@ -14,6 +14,7 @@ namespace NorthWestLabs.Controllers
             return View();
         }
 
+        //shows the final quote summary and all the information
         public ActionResult QuoteSummary()
         {
             return View();
